@@ -1,6 +1,6 @@
 # code your #valid_move? method here
 def valid_move?(board, index)
-  if (index)
+  if (index.between)
   elsif !position_taken?(board, index)
     true
   else
